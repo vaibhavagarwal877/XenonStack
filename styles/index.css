@@ -1,0 +1,86 @@
+.contact__wrap {
+	text-align: center;
+	transform: translateY(10%);
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 56px;
+	margin-bottom: 50px;
+	color: #631ebc;
+}
+.contact__form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.contact__form input {
+	height: 35px;
+	border: 2px solid #631ebc;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	transition: 0.2s;
+}
+.contact__form input:hover {
+	border: 2px solid #ff8080;
+}
+
+.contact__form input::placeholder {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.contact__form textarea {
+	height: 150px;
+	border: 2px solid #631ebc;
+	resize: none;
+	padding-left: 5px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.contact__form textarea::placeholder {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.contact__form textarea:hover {
+	border: 2px solid #ff8080;
+}
+.contact__form input[type='submit'] {
+	height: 40px;
+	font-size: 14px;
+	color: #fff;
+	background: #631ebc;
+	text-transform: uppercase;
+	width: 50%;
+	transition: 0.2s;
+}
+.contact__form input[type='submit']:hover {
+	font-size: 16px;
+	border: 0;
+}
+*:focus {
+	outline: #ff8080 auto 1px;
+}
+
+body {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1036.04 629.41'%3E%3Cdefs%3E%3Cstyle%3E.cls-1,.cls-2%7Bfill:%23f55;%7D.cls-1%7Bopacity:0.4;%7D.cls-3%7Bfill:blue;opacity:0.47;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EAsset 3%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpath class='cls-1' d='M561.72,622.45c-63.69-33.75,60.7-43.86,80.9-71.07S470.18,604,411,620.21c-18.55,5.08-170.38,31.47-75.69-37.33s258.92-82,258.92-82-5.34-25-81.72-10.2S109.36,675.12,125.27,597.39s235.6-131.63,235.6-131.63,32.33-24.41-29.49-12.07S-112.49,579.25,32.66,490.61,300.07,435.52,381,410.42c9.86-3.06,12.14-16.49-30.5-25.09s-176.71-25.8-176.71-25.8S-31.54,316.19,142,313.35s288.89,89,389.76,108.17c41.22,7.84,57.47-5-106.56-79.35S289.45,256.51,329.64,263c113.09,18.28,347.85,143.06,359.43,187.54s21.21-14.19,21.21-14.19S684,375.82,627.59,365s-59.08-42.64-14.13-38.48,229.18,56.79,181.41,188.85C783.34,547.17,625.41,656.2,561.72,622.45Z'/%3E%3Cpath class='cls-2' d='M587.34,556C614,527.22,704.87,527.6,704.87,527.6S541,503.51,515.21,460.77c-14.48-24,3.19-18.06,110.92-11.15s-198-74.44-166.95-110.5,200.19,64.5,200.19,64.5S438.43,185.22,527.25,238.1,677.7,373.54,677.7,373.54s-94.48-188.83-20.77-87.66,81.91,126.17,81.91,126.17S664.52,188,721.1,308.74,775.18,408,775.18,408s-33-191.4,4.88-87,43,132.43,43,132.43,8,75.63-33.47,93.35C719.34,576.69,570.6,574.06,587.34,556Z'/%3E%3Cpath class='cls-3' d='M755,550.12s-183-129-113.55-111.31c133.52,34,185.1,55.59,148.55,75.6-33,18.07-91.71-119.3-91.71-119.3s-1.29-58.68,54.64,18.55-46.25-170-46.25-170-38.5-173.57,33-90.84,67.79-80.59,67.79-80.59,82.6-155.68,86.88-10S953,122.45,953,122.45s59.4-70.6-16.82,157.15,39.42-17.37,39.42-17.37,147.06-2.88-17.46,163.53S755,550.12,755,550.12Z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+	background-color: #f7f5ff;
+	background-position: 10vw 35vh;
+	height: 100vh;
+	width: 100vw;
+	/* overflow: hidden; */
+}
+
+.fa-instagram {
+	position: absolute;
+	top: 3%;
+	right: 2%;
+	font-size: 38px;
+}
+
+.fa-instagram:hover {
+	font-size: 42px;
+	color: #ff8080;
+	transition: all 0.1s linear;
+	cursor: pointer;
+}
